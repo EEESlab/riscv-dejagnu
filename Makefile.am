@@ -126,7 +126,8 @@ baseboard_DATA = \
 	baseboards/vr4100-sim.exp \
 	baseboards/vr4111-sim.exp \
 	baseboards/vr4300-sim.exp \
-	baseboards/xtensa-sim.exp
+	baseboards/xtensa-sim.exp \
+	baseboards/riscv-gvsoc.exp 
 
 djlibexecdir = $(pkgdatadir)/libexec
 djlibexec_SCRIPTS = config.guess
