@@ -18,6 +18,11 @@ set_board_info ldscript ""
 
 # No support for signals on this target.
 set_board_info gdb,nosignals 1
+set_board_info gcc,stack_size  	32768
+
+# L2 memory available without stack, heap and other segments (20kB)
+set_board_info gcc,memory_size  435000
+
 
 # Set timeout
-set timeout 3
+set_board_info gcc,timeout 10
